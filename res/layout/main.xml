@@ -12,9 +12,11 @@
 		android:layout_position="center"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:text="@string/button1"	/>
-		<Button
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:text="@string/button2"	/>
+		android:text="@string/button1"
+		android:onClick="mountText"	/>
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/button2"
+		android:onClick="fsckText"	/>
 </LinearLayout>

@@ -6,7 +6,7 @@
 	<string name="button1">How to remount</string>
 	<string name="b1c">mount -o remount,rw *partition*</string>
 	<string name="button2">How to force fsck</string>
-	<string name="b2c">sudo touch /fsck</string>
+	<string name="b2c">sudo touch /forcefsck</string>
 	<string name="button3"></string>
 	<string name="b3c"></string>
 </resources>

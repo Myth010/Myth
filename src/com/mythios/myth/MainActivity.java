@@ -14,5 +14,14 @@ public class MainActivity extends Activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
     }
-	
+   /** Called when the user clicks the button */
+   public void mountText(View view)	{
+	// Do something in response to button
+	Intent intent = new Intent(this, Displayb1c.class);
+   }
+	/** Called when user clicks the second button */
+	public void fsckText(View view)	{
+	//Do something
+	Intent intent = new Intent(this, Displayb2c.class);
+    }
 }
