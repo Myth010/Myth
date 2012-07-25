@@ -1,10 +1,10 @@
 package com.mythios.myth;
 
-import android.app.*;
-import android.os.*;
-import android.view.*;
-import android.widget.*;
-import android.content.Intent.*;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
 
 public class MainActivity extends Activity
 {
@@ -20,18 +20,17 @@ public class MainActivity extends Activity
    public void mountText(View view)	{
 	// Do something in response to button
 	Intent intent = new Intent(this, Displayb1c.class);
-	b1c b1c =(b1c) findViewById(R.id.b1c);
-	String message = b1c.getText().toString();
-	intent.putExtra(EXTRA_MESSAGE, message);
 	startActivity(intent);
    }
 	/** Called when user clicks the second button */
 	public void fsckText(View view)	{
 	//Do something
 	Intent intent = new Intent(this, Displayb2c.class);
-	b2c b2c =(b2c) findViewById(R.id.b2c);
-	String message = b2c.getText().toString();
-	intent.putExtra(EXTRA_MESSAGE, message);
 	startActivity(intent);
     }
+	/** To start the Chmod calculator app */
+	public void chmodCalc (View view) {
+		Intent LaunchIntent = getPackageManager().getLaunchIntentForPackage("com.splatsoft.chmodcalculator");
+		startActivity(LaunchIntent);
+		}
 }
