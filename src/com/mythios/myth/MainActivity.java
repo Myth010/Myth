@@ -28,6 +28,12 @@ public class MainActivity extends Activity
 	Intent intent = new Intent(this, Displayb2c.class);
 	startActivity(intent);
     }
+	/** Called when user clicks third button */
+	public void grubText(View view)	{
+		// Get busy
+	Intent intent = new Intent(this, Displayb3c.class);
+	startActivity(intent);
+	}
 	/** To start the Chmod calculator app */
 	public void chmodCalc (View view) {
 		Intent LaunchIntent = getPackageManager().getLaunchIntentForPackage("com.splatsoft.chmodcalculator");

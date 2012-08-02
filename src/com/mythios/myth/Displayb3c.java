@@ -1,0 +1,13 @@
+package com.mythios.myth;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+public class Displayb3c extends Activity {
+
+		@Override
+		public void onCreate(Bundle savedInstanceState) {
+				super.onCreate(savedInstanceState);
+				setContentView(R.layout.activity_displayb3c);
+			}
+	}
