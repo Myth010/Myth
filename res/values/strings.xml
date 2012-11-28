@@ -9,10 +9,13 @@
     <string name="b2c">sudo touch /forcefsck</string>
     <string name="button3">How to fix Windows7 grub issue</string>
     <string name="b3c">ntldr /bootmgr</string>
+	<string name="button4">How to check if a process is running</string>
+	<string name="b4c">"SERVICE=appname \n \n if ps ax | grep -v grep | grep $SERVICE > /dev/null \n then \n \t echo What to do when the app is running \n else \n \t echo What to do when the app is not running \n fi"</string>
 	<string name="chmodbut">Start Chmod Calculator</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_displayb1c">How to remount</string>
     <string name="title_activity_displayb2c">How to force fsck</string>
 	<string name="title_activity_displayb3c">How to fix Windows7 grub issue</string>
+	<string name="title_activity_displayb4c">How to check if a process is running</string>
 </resources>
